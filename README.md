@@ -34,6 +34,12 @@ For example, instead of a platform admin manually checking if each uploaded book
 
 ---
 
+## 📸 Screenshots
+
+<p align="center">
+  <img src="screenshots/img1.png" width="250" />
+  <img src="screenshots/img2" width="250" />
+</p>
 
 License
 This project is open-source and available under the MIT License.
