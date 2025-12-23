@@ -38,7 +38,7 @@ For example, instead of a platform admin manually checking if each uploaded book
 
 <p align="center">
   <img src="screenshots/img1.png" width="250" />
-  <img src="screenshots/img2" width="250" />
+  <img src="screenshots/img2.png" width="250" />
 </p>
 
 License
