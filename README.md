@@ -34,58 +34,6 @@ For example, instead of a platform admin manually checking if each uploaded book
 
 ---
 
-## Installation
-
-1. Clone this repository:
-
-```bash
-git clone https://github.com/yourusername/book-image-validator.git
-cd book-image-validator
-Install dependencies:
-
-bash
-Copy code
-pip install -r requirements.txt
-Make sure you have the trained model saved as:
-
-Copy code
-book_validator_model.keras
-Run the Flask app:
-
-bash
-Copy code
-python app.py
-Open the frontend in your browser:
-
-cpp
-Copy code
-http://127.0.0.1:5000/
-Usage
-Upload a book image using the file input.
-
-The image preview will appear.
-
-Click Validate.
-
-The system will return whether the image is VALID or INVALID along with a probability score.
-
-Benefits
-Saves time: Eliminates manual verification of book images.
-
-Consistency: Standardizes image validation using machine learning.
-
-Scalable: Can handle thousands of images in real-time.
-
-Integration-ready: Can be integrated into any platform via REST API.
-
-Future Enhancements
-Fine-tune the model on a larger, more diverse dataset.
-
-Implement multi-class validation for book covers, content pages, or invalid uploads.
-
-Add batch processing for bulk uploads.
-
-Display confidence heatmaps on images to highlight detected areas.
 
 License
 This project is open-source and available under the MIT License.
