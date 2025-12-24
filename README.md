@@ -56,6 +56,7 @@ that can be used for building and experimenting with ML models.
 2. Download book-related and non-book images
 3. Organize them into the following structure:
 
+```text
 images/
 ├── train/
 │   ├── valid/
@@ -63,6 +64,8 @@ images/
 ├── val/
 │   ├── valid/
 │   └── invalid/
+```
+
 
 
 
