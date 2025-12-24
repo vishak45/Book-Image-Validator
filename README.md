@@ -71,7 +71,8 @@ images/
 
 - `valid/`   → images of real books (correct listings)
 - `invalid/` → random / non-book / incorrect images
+  
 
 
-License
+## License
 This project is open-source and available under the MIT License.
