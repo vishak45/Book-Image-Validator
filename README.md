@@ -64,6 +64,7 @@ images/
 │       ├── img1.jpg
 │       └── ...
 
+
 - `valid/`   → images of real books (correct listings)
 - `invalid/` → random / non-book / incorrect images
 
