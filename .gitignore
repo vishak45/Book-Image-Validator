@@ -5,3 +5,6 @@ images/
 *.jpg
 *.png
 *.jpeg
+
+# Models
+models/
