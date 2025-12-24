@@ -66,12 +66,22 @@ images/
 │   └── invalid/
 ```
 
-
-
-
 - `valid/`   → images of real books (correct listings)
 - `invalid/` → random / non-book / incorrect images
-  
+
+## 🧪 Getting Started
+1️⃣ Clone the Repository
+git clone https://github.com/vishak45/Book-Image-Validator.git
+cd Book-Image-Validator
+
+## 2️⃣ Install Dependencies
+pip install -r requirements.txt
+
+## 3️⃣ Run the Application
+python server.py
+
+
+Upload a book image to see the prediction.
 
 
 ## License
