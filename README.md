@@ -41,5 +41,32 @@ For example, instead of a platform admin manually checking if each uploaded book
   <img src="screenshots/img2.png" width="250" />
 </p>
 
+## 📁 Dataset Setup
+
+This project does **not** include the training images due to size and licensing reasons.
+
+To train or test the model, create the following directory structure
+inside the project root:
+
+images/
+├── train/
+│   ├── valid/
+│   │   ├── img1.jpg
+│   │   └── ...
+│   └── invalid/
+│       ├── img1.jpg
+│       └── ...
+├── val/
+│   ├── valid/
+│   │   ├── img1.jpg
+│   │   └── ...
+│   └── invalid/
+│       ├── img1.jpg
+│       └── ...
+
+- `valid/`   → images of real books (correct listings)
+- `invalid/` → random / non-book / incorrect images
+
+
 License
 This project is open-source and available under the MIT License.
