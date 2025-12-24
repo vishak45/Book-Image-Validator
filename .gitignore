@@ -1,4 +1,7 @@
+# Dataset
 images/
+
+# Image formats
 *.jpg
 *.png
 *.jpeg
