@@ -7,4 +7,7 @@ images/
 *.jpeg
 
 # Models
+*.keras
+*.h5
 models/
+
