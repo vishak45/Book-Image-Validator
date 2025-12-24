@@ -41,28 +41,29 @@ For example, instead of a platform admin manually checking if each uploaded book
   <img src="screenshots/img2.png" width="250" />
 </p>
 
-## 📁 Dataset Setup
+## 🖼️ Dataset Source
 
-This project does **not** include the training images due to size and licensing reasons.
+The images used for training and validation were collected from
+[images.cv](https://images.cv).
 
-To train or test the model, create the following directory structure
-inside the project root:
+This platform provides a large collection of computer-vision–ready images
+that can be used for building and experimenting with ML models.
+
+
+### How to Prepare Your Dataset
+
+1. Visit https://images.cv
+2. Download book-related and non-book images
+3. Organize them into the following structure:
 
 images/
 ├── train/
 │   ├── valid/
-│   │   ├── img1.jpg
-│   │   └── ...
 │   └── invalid/
-│       ├── img1.jpg
-│       └── ...
 ├── val/
 │   ├── valid/
-│   │   ├── img1.jpg
-│   │   └── ...
 │   └── invalid/
-│       ├── img1.jpg
-│       └── ...
+
 
 
 - `valid/`   → images of real books (correct listings)
